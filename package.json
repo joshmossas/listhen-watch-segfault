@@ -1,0 +1,21 @@
+{
+  "name": "listhen-watch-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "listhen ./src/server.ts --watch",
+    "serve": "listhen ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "h3": "^1.11.1",
+    "listhen": "^1.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
